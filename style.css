@@ -377,3 +377,53 @@ body {
         color: var(--muted); 
         line-height: 1.6; 
     }
+
+    .conditions { 
+        background: var(--dark); 
+    }
+
+    .conditions .sec-title { 
+        color: var(--white); 
+    }
+    
+    .conditions .sec-sub { 
+        color: rgba(255,255,255,0.45); 
+    }
+
+    .cond-grid { 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+        gap: 1.2rem; 
+        margin-top: 3rem; 
+    }
+
+    .cond-card { 
+        background: rgba(255,255,255,0.05); 
+        border: 1px solid rgba(255,255,255,0.07); 
+        border-radius: 20px; 
+        padding: 2rem; 
+        transition: background 0.25s, transform 0.25s; 
+        cursor: default; 
+    }
+
+    .cond-card:hover { 
+        background: rgba(184,204,90,0.08); 
+        transform: translateY(-4px); 
+    }
+
+    .cond-icon { 
+        font-size: 2rem; 
+        margin-bottom: 1rem;
+  }
+  
+  .cond-card h3 { 
+    font-family: 'Fraunces', serif; 
+    font-size: 1.1rem; 
+    color: var(--white); 
+    margin-bottom: 0.5rem; 
+}
+    .cond-card p { 
+        font-size: 0.82rem; 
+        color: rgba(255,255,255,0.45); 
+        line-height: 1.65; 
+    }
