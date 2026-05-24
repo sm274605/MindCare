@@ -662,3 +662,19 @@ body {
     .footer-links a:hover { 
         color: var(--lime); 
     }
+
+    /* Animations */
+    @keyframes fadeUp { 
+        from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } 
+    }
+
+    @media (max-width: 900px) { 
+        .features-layout { grid-template-columns: 1fr; } 
+        .faq-layout { grid-template-columns: 1fr; gap: 2rem; } 
+        .hero-stat { display: none; } 
+    }
+    @media (max-width: 640px) { 
+        nav ul { display: none; } 
+        footer { flex-direction: column; 
+        text-align: center; } 
+    }
