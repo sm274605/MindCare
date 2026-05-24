@@ -629,3 +629,36 @@ body {
         position: relative; 
         z-index: 1; 
     }
+
+    /* Footer */
+    footer { 
+        background: var(--dark); 
+        padding: 2.5rem 5%; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        flex-wrap: wrap; 
+        gap: 1rem;
+        border-top: 1px solid rgba(255,255,255,0.06); 
+    }
+
+    footer p { 
+        color: rgba(255,255,255,0.3); 
+        font-size: 0.82rem; 
+    }
+
+    .footer-links { 
+        display: flex; 
+        gap: 1.5rem; 
+    }
+
+    .footer-links a { 
+        color: rgba(255,255,255,0.35); 
+        text-decoration: none; 
+        font-size: 0.82rem; 
+        transition: color 0.2s; 
+    }
+
+    .footer-links a:hover { 
+        color: var(--lime); 
+    }
