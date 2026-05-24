@@ -208,6 +208,7 @@ body {
         line-height: 1.4; 
     }
 
+    /* Trust Bar */
     .trust-bar { 
         background: var(--cream); 
         padding: 1.6rem 5%; 
@@ -238,7 +239,8 @@ body {
         color: var(--muted); 
         opacity: 0.65; 
     }
-
+ 
+    /* Features Section */
     section { 
         padding: 6rem 5%; 
     }
@@ -378,6 +380,8 @@ body {
         line-height: 1.6; 
     }
 
+    /* Conditions Section */
+
     .conditions { 
         background: var(--dark); 
     }
@@ -426,4 +430,69 @@ body {
         font-size: 0.82rem; 
         color: rgba(255,255,255,0.45); 
         line-height: 1.65; 
+    }
+ 
+     /* Testimonials Section */
+    .testimonials { 
+        background: var(--cream); 
+    }
+
+    .testi-grid { 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+        gap: 1.5rem; 
+        margin-top: 3rem; 
+    }
+
+    .testi-card { 
+        background: var(--white); 
+        border-radius: 20px; 
+        padding: 2rem; 
+        border: 1px solid var(--warm); 
+        transition: transform 0.2s, box-shadow 0.2s; 
+    }
+
+    .testi-card:hover { 
+        transform: translateY(-4px); 
+        box-shadow: 0 20px 40px rgba(0,0,0,0.07); 
+    }
+
+    .stars { 
+        color: var(--lime); 
+        margin-bottom: 1rem; 
+        letter-spacing: 2px; 
+    }
+
+    .testi-q { 
+        font-family: 'Fraunces', serif; 
+        font-style: italic; 
+        font-size: 1rem; 
+        line-height: 1.65; 
+        margin-bottom: 1.5rem; 
+    }
+    .testi-author { 
+        display: flex; 
+        align-items: center; 
+        gap: 0.8rem;
+     }
+
+    .testi-av { 
+        width: 40px; 
+        height: 40px; 
+        border-radius: 50%; 
+        background: var(--olive); 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        font-size: 1.1rem; 
+    }
+
+    .testi-name { 
+        font-size: 0.88rem; 
+        font-weight: 600; 
+    }
+
+    .testi-role { 
+        font-size: 0.77rem; 
+        color: var(--muted); 
     }
