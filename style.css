@@ -685,6 +685,8 @@ body {
     background: var(--dark);
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 9rem 5% 5rem;
 }
 
