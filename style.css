@@ -678,3 +678,106 @@ body {
         footer { flex-direction: column; 
         text-align: center; } 
     }
+
+    /* PAGE HERO */
+.page-hero {
+    min-height: 50vh;
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    padding: 9rem 5% 5rem;
+}
+
+.page-hero h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.5rem, 5vw, 3.8rem);
+    color: white;
+    line-height: 1.15;
+    margin-bottom: 1.2rem;
+}
+
+.page-hero h1 em { 
+    color: var(--lime); 
+    font-style: italic; 
+}
+
+.page-hero p { 
+    color: rgba(255,255,255,0.65); 
+    font-size: 1.05rem; 
+    line-height: 1.75; 
+}
+
+/* WHAT IS */
+.what-is {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.body-text { 
+    color: var(--muted); 
+    font-size: 1rem;
+    line-height: 1.8; 
+    margin-bottom: 1.2rem; 
+}
+
+.highlight-box {
+    background: var(--cream);
+    border-left: 4px solid var(--lime);
+    border-radius: 0 12px 12px 0;
+    padding: 1.2rem 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.highlight-box p { 
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: var(--dark); 
+    font-size: 1.05rem; 
+    line-height: 1.6; 
+}
+
+.visual-card-top {
+    background: var(--olive);
+    border-radius: 20px; 
+    padding: 2.5rem;
+    color: white; 
+    margin-bottom: 1rem;
+}
+
+.visual-card-top h3 { 
+    font-family: 'Fraunces', serif;
+    font-size: 1.3rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.visual-card-top p { 
+    font-size: 0.9rem; 
+    opacity: 0.85; 
+    line-height: 1.6; 
+}
+
+.visual-cards-row { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem; 
+}
+
+.mini-card {
+    background: var(--cream); 
+    border-radius: 16px;
+    padding: 1.2rem; 
+    text-align: center;
+}
+
+.mini-card .icon { 
+    font-size: 1.8rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.mini-card p { 
+    font-size: 0.82rem; 
+    color: var(--muted); 
+    line-height: 1.5; 
+}
